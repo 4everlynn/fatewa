@@ -31,6 +31,7 @@ after_success:
   - cp -r public/* container
   - cd container
   - ls
+  - git checkout -b gh-pages
   - git add .
   - git commit -m '@UPATE-BLOG'
   - git push -u origin gh-pages -f
