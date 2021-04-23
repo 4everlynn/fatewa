@@ -18,7 +18,7 @@
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/fatewa/js/meme.min.adf589c04467c358016b380623f53360155e7c431a0fba835d11c2a35b2904bf.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/fatewa/js/meme.min.d6f204511e63b7a833a76e2fe3c7d0316662b0ea6541fab0e0225e29e1b38524.js"></script>
 
     
 
@@ -54,7 +54,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2016-07-20T20:17:43+00:00",
-        "dateModified": "2021-04-23T17:24:26+08:00",
+        "dateModified": "2021-04-23T17:26:50+08:00",
         "url": "https://4everlynn.github.io/fatewa/posts/",
         "name": "Posts",
         "description": "Fatewa is a software team that has been active in the field of software development for many years.",
@@ -294,37 +294,31 @@
     
 
         
+
+        
+
+        
             <script>
     function loadComments() {
-        if (typeof DISQUS === 'undefined') {
-            var disqus_config = function() {
-                this.page.url = 'https:\/\/4everlynn.github.io\/fatewa\/posts\/';
-                this.page.identifier = '\/fatewa\/posts\/';
-                this.page.title = 'Posts';
-            };
-            (function() {
-                var d = document, s = d.createElement('script'); s.async = true;
-                s.src = 'https://.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
+        (function() {
+            var utterances = document.getElementById("utterances");
+            var script = document.createElement('script');
+            script.src = 'https://utteranc.es/client.js';
+            script.async = true;
+            script.crossOrigin = 'anonymous';
+            script.setAttribute('repo', '4everlynn\/fatewa');
+            script.setAttribute('issue-term', 'pathname');
+            const isDark = getCurrentTheme() === 'dark';
+        if (isDark) {
+            script.setAttribute('theme', 'photon-dark');
         } else {
-            DISQUS.reset({
-                reload: true,
-                config: function() {
-                    this.page.url = 'https:\/\/4everlynn.github.io\/fatewa\/posts\/';
-                    this.page.identifier = '\/fatewa\/posts\/';
-                    this.page.title = 'Posts';
-                }
-            });
+            script.setAttribute('theme', 'github-light');
         }
+            
+            utterances.appendChild(script);
+        })();
     }
 </script>
-
-        
-
-        
-
         
 
         
