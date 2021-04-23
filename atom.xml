@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">&lt;Fatewa /&gt;</title>
     <subtitle type="html">Fatewa is a software team that has been active in the field of software development for many years.</subtitle>
-    <updated>2021-04-23T17:20:18&#43;08:00</updated>
+    <updated>2021-04-23T17:24:28&#43;08:00</updated>
     <id>https://4everlynn.github.io/fatewa/</id>
     <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/" />
     <link rel="self" type="application/atom&#43;xml" href="https://4everlynn.github.io/fatewa/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">docker-compose 部署 wordpress</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/wordpress/" />
             <id>https://4everlynn.github.io/fatewa/posts/wordpress/</id>
-            <updated>2021-04-23T17:20:13&#43;08:00</updated>
+            <updated>2021-04-23T17:24:26&#43;08:00</updated>
             <published>2021-01-25T14:27:03&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -385,7 +385,7 @@ create database &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;my_website&lt;span 
             <title type="text">传统部署向左，docker向右</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/</id>
-            <updated>2021-04-23T17:20:13&#43;08:00</updated>
+            <updated>2021-04-23T17:24:26&#43;08:00</updated>
             <published>2021-01-22T14:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
