@@ -1,0 +1,36 @@
+language: go
+branches:
+  only:
+    - main
+
+cache:
+  directories:
+    - themes
+
+before_install:
+  - export TZ='Asia/Shanghai'  # 设置时区
+
+# 安装依赖组件
+install:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_0.82.1_Linux-64bit.tar.gz
+  - tar -xzvf hugo_0.82.1_Linux-64bit.tar.gz
+  - chmod +x hugo
+  - export PATH=$PATH:$PWD
+  - hugo version
+  - rm -rf public
+  - npm install
+
+script:
+  - hugo --buildFuture
+  - gulp
+  - echo 'Build done!'
+after_success:
+  - git config --global user.name "4everlynn"
+  - git config --global user.email "646621613@qq.com"
+  - git clone https://${ACCESS_TOKEN}@github.com/4everlynn/fatewa.git container
+  - rm -rf container/*
+  - cp -r public/* container
+  - cd container
+  - git add .
+  - git commit -m 'Travis upate blog'
+  - git push -u origin gh-pages -f

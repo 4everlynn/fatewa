@@ -191,12 +191,12 @@ uglyURLs = false
 
 [menu]
     ## Menu bar
- #   [[menu.main]]
- #         url = "/"
- #         name = "commmon"
- #         weight = 1
- #         pre = "internal"
-    #      post = "home"
+    [[menu.main]]
+          url = "/"
+          name = "Home"
+          weight = 1
+          pre = "internal"
+#          post = "home"
     [[menu.main]]
         url = "/posts/"
         name = "Passage"
