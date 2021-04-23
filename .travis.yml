@@ -19,11 +19,9 @@ install:
   - export PATH=$PATH:$PWD
   - hugo version
   - rm -rf public
-  - npm install
 
 script:
   - hugo --buildFuture
-  - gulp
   - echo 'Build done!'
 after_success:
   - git config --global user.name "4everlynn"
