@@ -1,0 +1,31 @@
+.menu-item {
+    margin-right: 1em;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 200;
+    font-family: "Comfortaa",sans-serif;
+}
+
+.brand {
+    font-family: "Comfortaa",sans-serif;
+}
+
+.active a {
+    background-image: linear-gradient(275deg ,#68ffd2,#5bb3ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.socials-item {
+    background: linear-gradient(45deg, #00adff, #01ff1fbd);
+    &:hover {
+        background-color: hsl(90deg,87%, 72%);
+    }
+}
+
+.home .poetry {
+    max-width: 35em;
+    p,li {
+        text-align: left;
+    }
+}
