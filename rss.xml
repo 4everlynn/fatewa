@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>&lt;Fatewa /&gt;</title>
+        <link>https://example.com/</link>
+        <description>Fatewa is a software team that has been active in the field of software development for many years.</description>
+        <generator>Hugo 0.82.1 https://gohugo.io/</generator>
+        
+            <language>en</language>
+        
+        
+            <managingEditor>fatewa.fit@gmail.com (4everlynn)</managingEditor>
+        
+        
+            <webMaster>fatewa.fit@gmail.com (4everlynn)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+        
+        <lastBuildDate>Fri, 23 Apr 2021 16:29:46 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
+        
+        
+    </channel>
+</rss>
