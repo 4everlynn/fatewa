@@ -2,6 +2,7 @@ language: go
 branches:
   only:
     - main
+    - dev
 
 cache:
   directories:
