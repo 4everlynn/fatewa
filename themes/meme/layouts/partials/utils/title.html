@@ -2,7 +2,7 @@
 {{- $htmlTitle := .title -}}
 <!-- Home -->
 {{- if eq $.Kind "home" -}}
-    {{- $htmlTitle = $htmlTitle | default $.Site.Title -}}
+    {{- $htmlTitle = "Fatewa | 4everlynn" | default $.Site.Title -}}
 <!-- Taxonomy -->
 {{- else if eq $.Kind "taxonomy" -}}
     {{- $htmlTitle = $htmlTitle | default ($.Type | title) -}}

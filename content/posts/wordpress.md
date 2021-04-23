@@ -3,7 +3,7 @@ title: "docker-compose 部署 wordpress"
 date: 2021-01-25T14:27:03+08:00
 tags: ["docker", "wordpress", "docker-compose"]
 categories: ["docker"]
-draft: true
+draft: false
 ---
 
 

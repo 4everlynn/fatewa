@@ -21,7 +21,7 @@ install:
 
 script:
   - pwd && ls
-  - hugo --buildFuture
+  - hugo -F
   - echo 'build ok!'
 
 deploy:
