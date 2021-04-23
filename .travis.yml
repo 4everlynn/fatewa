@@ -22,16 +22,14 @@ install:
 script:
   - pwd && ls
   - hugo --buildFuture
-  - echo 'Build done!'
-after_success:
-  - git config --global user.name "4everlynn"
-  - git config --global user.email "646621613@qq.com"
-  - git clone https://${ACCESS_TOKEN}@github.com/4everlynn/fatewa.git container
-  - rm -rf container/*
-  - cp -r public/* container
-  - cd container
-  - ls
-  - git checkout -b gh-pages
-  - git add .
-  - git commit -m '@UPATE-BLOG'
-  - git push -u origin gh-pages -f
+  - echo 'build ok!'
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  local-dir: public
+  target-branch: dev
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: dev
