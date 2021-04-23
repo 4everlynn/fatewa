@@ -318,8 +318,8 @@ uglyURLs = false
     ## Poetry
     # Verse (Markdown supported)
     homePoetry = [
-    '#### Preface: Who is Fatewa ?', 
-    '> The people who are crazy enough to think they can change the world are the one that do.', 
+    '#### Preface: Who is Fatewa ?',
+    '> The people who are crazy enough to think they can change the world are the one that do.',
     'With our technical support, you can get the following services:',
      '- Software Development' ,
      '- Excellent engineer consultation' ,
@@ -824,7 +824,7 @@ uglyURLs = false
     displayReadingTime = true
     readingTimeIcon = "clock"
 
-    displayBusuanziPagePV = false
+    displayBusuanziPagePV = true
     busuanziPagePVIcon = "eye"
     # Note: render only in production
     #       environment
@@ -1272,7 +1272,7 @@ uglyURLs = false
     # Custom Footer (Markdown supported)
     customFooter = ""
 
-    displayBusuanziSiteUVAndPV = false
+    displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "Site UV"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "Site PV"
