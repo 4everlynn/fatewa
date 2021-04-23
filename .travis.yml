@@ -9,9 +9,8 @@ cache:
     - themes
 
 before_install:
-  - export TZ='Asia/Shanghai'  # 设置时区
+  - export TZ='Asia/Shanghai'
 
-# 安装依赖组件
 install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_0.82.1_Linux-64bit.tar.gz
   - tar -xzvf hugo_0.82.1_Linux-64bit.tar.gz
@@ -30,6 +29,7 @@ after_success:
   - rm -rf container/*
   - cp -r public/* container
   - cd container
+  - ls
   - git add .
-  - git commit -m 'Travis upate blog'
+  - git commit -m '@UPATE-BLOG'
   - git push -u origin gh-pages -f
