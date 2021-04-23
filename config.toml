@@ -655,7 +655,7 @@ uglyURLs = false
     autoLoadComments = true
 
     ## Disqus
-    enableDisqus = true
+    enableDisqus = false
     disqusShortname = ""
 
     ## Valine
@@ -680,8 +680,8 @@ uglyURLs = false
     # Note: https://valine.js.org/
 
     ## Utterances
-    enableUtterances = false
-    utterancesRepo = ""
+    enableUtterances = true
+    utterancesRepo = "4everlynn/fatewa"
     utterancesIssueTerm = "pathname"
     utterancesTheme = "github-light"
     utterancesThemeDark = "photon-dark"
