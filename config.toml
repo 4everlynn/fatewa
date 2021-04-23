@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://example.com/"
+baseURL = "https://4everlynn.github.io/fatewa/"
 title = "<Fatewa />"
 languageCode = "en"
 hasCJKLanguage = false
