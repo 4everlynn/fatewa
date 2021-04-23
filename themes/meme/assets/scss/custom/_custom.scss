@@ -10,10 +10,11 @@
 }
 
 .active a {
-    background-image: linear-gradient(275deg ,#68ffd2,#5bb3ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    span {
+        background-image: linear-gradient(275deg ,#68ffd2,#5bb3ff);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
 }
 
 .socials-item {

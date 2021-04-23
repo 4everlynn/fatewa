@@ -296,7 +296,7 @@ uglyURLs = false
     # Note: invalid for header layout flex
 
     # Highlight current menu item by section?
-    activeInSection = true
+    activeInSection = false
     # Note: if true, the menu item in the
     #       post page will be highlighted
     #       also if that post’s section is
