@@ -20,6 +20,7 @@ install:
   - rm -rf public
 
 script:
+  - pwd && ls
   - hugo --buildFuture
   - echo 'Build done!'
 after_success:
