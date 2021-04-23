@@ -4,10 +4,6 @@ branches:
     - main
     - fatewa
 
-cache:
-  directories:
-    - themes
-
 before_install:
   - export TZ='Asia/Shanghai'
 
