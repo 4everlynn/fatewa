@@ -4,13 +4,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">&lt;Fatewa /&gt;</title>
     <subtitle type="html">Fatewa is a software team that has been active in the field of software development for many years.</subtitle>
-    <updated>2021-04-23T16:29:46&#43;08:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <updated>2021-04-23T16:41:24&#43;08:00</updated>
+    <id>https://4everlynn.github.io/fatewa/</id>
+    <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://4everlynn.github.io/fatewa/atom.xml" />
     <author>
             <name>4everlynn</name>
-            <uri>https://example.com/</uri>
+            <uri>https://4everlynn.github.io/</uri>
             
                 <email>fatewa.fit@gmail.com</email>
             </author>
