@@ -7,7 +7,7 @@
 
 [[socials]]
     id = "rss"
-    url = "/rss.xml"
+    url = "/fatewa/rss.xml"
     icon = "rss"
     title = "RSS"
     weight = 1
