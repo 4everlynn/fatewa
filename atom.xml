@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">&lt;Fatewa /&gt;</title>
     <subtitle type="html">Fatewa is a software team that has been active in the field of software development for many years.</subtitle>
-    <updated>2021-04-27T12:28:32&#43;08:00</updated>
+    <updated>2021-04-27T12:31:29&#43;08:00</updated>
     <id>https://4everlynn.github.io/fatewa/</id>
     <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/" />
     <link rel="self" type="application/atom&#43;xml" href="https://4everlynn.github.io/fatewa/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Chapter 1 three.js 与 vue</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/" />
             <id>https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/</id>
-            <updated>2021-04-27T12:28:31&#43;08:00</updated>
+            <updated>2021-04-27T12:31:27&#43;08:00</updated>
             <published>2021-03-24T12:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -333,7 +333,7 @@ Version &amp;amp; Tech  Vue ^2.6.11 three ^0.128.0 Typescript ~4.1.5 rxjs ^6.6.7
             <title type="text">docker-compose 部署 wordpress</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/wordpress/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/wordpress/</id>
-            <updated>2021-04-27T12:28:31&#43;08:00</updated>
+            <updated>2021-04-27T12:31:27&#43;08:00</updated>
             <published>2021-01-25T14:27:03&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -698,7 +698,7 @@ create database &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;my_website&lt;span 
             <title type="text">传统部署向左，docker向右</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/docker/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/docker/</id>
-            <updated>2021-04-27T12:28:31&#43;08:00</updated>
+            <updated>2021-04-27T12:31:27&#43;08:00</updated>
             <published>2021-01-22T14:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
