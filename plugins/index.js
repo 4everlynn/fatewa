@@ -1,1 +1,1 @@
-import './wx-share.js'
+console.log('plugins ready to install')
