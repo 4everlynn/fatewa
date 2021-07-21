@@ -23,10 +23,132 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Tue, 27 Apr 2021 13:19:17 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jul 2021 16:49:23 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://4everlynn.github.io/fatewa/rss.xml" />
         
+        
+            <item>
+                <title>Gitlab下的工作方式</title>
+                <link>https://4everlynn.github.io/fatewa/posts/work/gitlab/</link>
+                <guid isPermaLink="true">https://4everlynn.github.io/fatewa/posts/work/gitlab/</guid>
+                <pubDate>Wed, 21 Jul 2021 16:42:10 &#43;0800</pubDate>
+                
+                    <author>fatewa.fit@gmail.com (4everlynn)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;导读目录&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;账号体系&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;项目管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Issue&lt;/li&gt;
+&lt;li&gt;里程碑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通知与消息&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;邮件通知&lt;/li&gt;
+&lt;li&gt;站内通知&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;权限体系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;仓库隔离&lt;/li&gt;
+&lt;li&gt;用户权限类型
+&lt;ul&gt;
+&lt;li&gt;Guest&lt;/li&gt;
+&lt;li&gt;Reporter&lt;/li&gt;
+&lt;li&gt;Developer&lt;/li&gt;
+&lt;li&gt;Maintainer&lt;/li&gt;
+&lt;li&gt;Owner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文档管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wiki&lt;/li&gt;
+&lt;li&gt;Markdown&lt;/li&gt;
+&lt;li&gt;UML图&lt;/li&gt;
+&lt;li&gt;流程图引擎(flow、mermaid)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Devops&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker 私有仓库&lt;/li&gt;
+&lt;li&gt;CI / CD&lt;/li&gt;
+&lt;li&gt;Gitlab Runner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;基于Git的分支开发模型 (仅介绍两种)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Production / Develop&lt;/li&gt;
+&lt;li&gt;Feature / Release&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;进阶阅读&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gitlab Hooks&lt;/li&gt;
+&lt;li&gt;Gitlab GraphQL&lt;/li&gt;
+&lt;li&gt;GitLab Pages&lt;/li&gt;
+&lt;li&gt;从 SVN 迁移&lt;/li&gt;
+&lt;li&gt;Git 的基本使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://4everlynn.github.io/fatewa/categories/work/">work</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://4everlynn.github.io/fatewa/tags/git/">Git</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://4everlynn.github.io/fatewa/tags/gitlab/">Gitlab</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://4everlynn.github.io/fatewa/tags/work/">Work</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Chapter 1 three.js 与 vue</title>
@@ -45,7 +167,7 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/4everlynn/snippet-of-jobs/tree/threejs/L3%20ThreeJS&#34;&gt;代码仓库地址, 喜欢记得给个Star呀~&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;why-threejs&#34;&gt;Why Three.js&lt;/h3&gt;
 &lt;p&gt;随着 WebGL 逐渐普及，顺应而生的框架也越来越多，在这其中&lt;code&gt;TheeJS&lt;/code&gt;在一定程度上来说是知名度、完成度最高的框架，&lt;br&gt;
-也正是其优点之多使得我们在做技术选型的时候，坚定地选择了它，话虽如此，对于初入 WebGL 的我来说，倒还是遇到了不少棘手的问题，&lt;br&gt;
+也正是其优点之多使得我们在做技术选型的时候，坚定地选择了它，话虽如此，使用过程中，还是遇到了不少棘手的问题，&lt;br&gt;
 在此我便记录、复盘一下整个封装、使用的过程，以便自己将来进行查阅，也为后来者提供一些案例。&lt;/p&gt;
 &lt;h3 id=&#34;version--tech&#34;&gt;Version &amp;amp; Tech&lt;/h3&gt;
 &lt;ul&gt;

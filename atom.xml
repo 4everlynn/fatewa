@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">&lt;Fatewa /&gt;</title>
     <subtitle type="html">Fatewa is a software team that has been active in the field of software development for many years.</subtitle>
-    <updated>2021-04-27T13:19:17&#43;08:00</updated>
+    <updated>2021-07-21T16:49:23&#43;08:00</updated>
     <id>https://4everlynn.github.io/fatewa/</id>
     <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/" />
     <link rel="self" type="application/atom&#43;xml" href="https://4everlynn.github.io/fatewa/atom.xml" />
@@ -17,10 +17,141 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
         <entry>
+            <title type="text">Gitlab下的工作方式</title>
+            <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/gitlab/" />
+            <id>https://4everlynn.github.io/fatewa/posts/work/gitlab/</id>
+            <updated>2021-07-21T16:49:21&#43;08:00</updated>
+            <published>2021-07-21T16:42:10&#43;08:00</published>
+            <author>
+                    <name>4everlynn</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>fatewa.fit@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">导读目录
+   账号体系
+  项目管理
+ Issue 里程碑    通知与消息
+ 邮件通知 站内通知    权限体系
+ 仓库隔离 用户权限类型  Guest Reporter Developer Maintainer Owner      文档管理
+ Wiki Markdown UML图 流程图引擎(flow、mermaid)    Devops</summary>
+            
+                <content type="html">&lt;p&gt;导读目录&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;账号体系&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;项目管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Issue&lt;/li&gt;
+&lt;li&gt;里程碑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通知与消息&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;邮件通知&lt;/li&gt;
+&lt;li&gt;站内通知&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;权限体系&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;仓库隔离&lt;/li&gt;
+&lt;li&gt;用户权限类型
+&lt;ul&gt;
+&lt;li&gt;Guest&lt;/li&gt;
+&lt;li&gt;Reporter&lt;/li&gt;
+&lt;li&gt;Developer&lt;/li&gt;
+&lt;li&gt;Maintainer&lt;/li&gt;
+&lt;li&gt;Owner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文档管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wiki&lt;/li&gt;
+&lt;li&gt;Markdown&lt;/li&gt;
+&lt;li&gt;UML图&lt;/li&gt;
+&lt;li&gt;流程图引擎(flow、mermaid)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Devops&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker 私有仓库&lt;/li&gt;
+&lt;li&gt;CI / CD&lt;/li&gt;
+&lt;li&gt;Gitlab Runner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;基于Git的分支开发模型 (仅介绍两种)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Production / Develop&lt;/li&gt;
+&lt;li&gt;Feature / Release&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;进阶阅读&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gitlab Hooks&lt;/li&gt;
+&lt;li&gt;Gitlab GraphQL&lt;/li&gt;
+&lt;li&gt;GitLab Pages&lt;/li&gt;
+&lt;li&gt;从 SVN 迁移&lt;/li&gt;
+&lt;li&gt;Git 的基本使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://4everlynn.github.io/fatewa/categories/work/" term="work" label="work" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://4everlynn.github.io/fatewa/tags/git/" term="Git" label="Git" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://4everlynn.github.io/fatewa/tags/gitlab/" term="Gitlab" label="Gitlab" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://4everlynn.github.io/fatewa/tags/work/" term="Work" label="Work" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">Chapter 1 three.js 与 vue</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/" />
             <id>https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/</id>
-            <updated>2021-04-27T13:19:15&#43;08:00</updated>
+            <updated>2021-07-21T16:49:21&#43;08:00</updated>
             <published>2021-03-24T12:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -30,7 +161,7 @@
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">在过去的一段时间里，我在项目中参与了一部分 WebGL 的功能实现，主要使用到的技术为 Cesium、ThreeJS， 闲暇之余，就打算记录一下这两个框架的使用，以及与 Vue 封装结合的过程。
  代码仓库地址, 喜欢记得给个Star呀~
 Why Three.js 随着 WebGL 逐渐普及，顺应而生的框架也越来越多，在这其中TheeJS在一定程度上来说是知名度、完成度最高的框架，
-也正是其优点之多使得我们在做技术选型的时候，坚定地选择了它，话虽如此，对于初入 WebGL 的我来说，倒还是遇到了不少棘手的问题，
+也正是其优点之多使得我们在做技术选型的时候，坚定地选择了它，话虽如此，使用过程中，还是遇到了不少棘手的问题，
 在此我便记录、复盘一下整个封装、使用的过程，以便自己将来进行查阅，也为后来者提供一些案例。
 Version &amp;amp; Tech  Vue ^2.6.11 three ^0.128.0 Typescript ~4.1.5 rxjs ^6.6.7 vue-styled-components ^1.6.0  Project Struct . ├── App.vue ├── components │ └── base │ ├── fatewa-gl │ │ └── index.</summary>
             
@@ -41,7 +172,7 @@ Version &amp;amp; Tech  Vue ^2.6.11 three ^0.128.0 Typescript ~4.1.5 rxjs ^6.6.7
 &lt;p&gt;&lt;a href=&#34;https://github.com/4everlynn/snippet-of-jobs/tree/threejs/L3%20ThreeJS&#34;&gt;代码仓库地址, 喜欢记得给个Star呀~&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;why-threejs&#34;&gt;Why Three.js&lt;/h3&gt;
 &lt;p&gt;随着 WebGL 逐渐普及，顺应而生的框架也越来越多，在这其中&lt;code&gt;TheeJS&lt;/code&gt;在一定程度上来说是知名度、完成度最高的框架，&lt;br&gt;
-也正是其优点之多使得我们在做技术选型的时候，坚定地选择了它，话虽如此，对于初入 WebGL 的我来说，倒还是遇到了不少棘手的问题，&lt;br&gt;
+也正是其优点之多使得我们在做技术选型的时候，坚定地选择了它，话虽如此，使用过程中，还是遇到了不少棘手的问题，&lt;br&gt;
 在此我便记录、复盘一下整个封装、使用的过程，以便自己将来进行查阅，也为后来者提供一些案例。&lt;/p&gt;
 &lt;h3 id=&#34;version--tech&#34;&gt;Version &amp;amp; Tech&lt;/h3&gt;
 &lt;ul&gt;
@@ -333,7 +464,7 @@ Version &amp;amp; Tech  Vue ^2.6.11 three ^0.128.0 Typescript ~4.1.5 rxjs ^6.6.7
             <title type="text">docker-compose 部署 wordpress</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/wordpress/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/wordpress/</id>
-            <updated>2021-04-27T13:19:15&#43;08:00</updated>
+            <updated>2021-07-21T16:49:21&#43;08:00</updated>
             <published>2021-01-25T14:27:03&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -698,7 +829,7 @@ create database &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;my_website&lt;span 
             <title type="text">传统部署向左，docker向右</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/docker/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/docker/</id>
-            <updated>2021-04-27T13:19:15&#43;08:00</updated>
+            <updated>2021-07-21T16:49:21&#43;08:00</updated>
             <published>2021-01-22T14:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
