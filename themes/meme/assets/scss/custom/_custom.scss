@@ -44,4 +44,20 @@
     max-height: none;
 }
 
+//start custom mermaid
+.node rect, .node circle {
+    fill: #1c0735 !important
+}
 
+.node .label {
+    color: white !important;
+}
+
+.edgePath .path {
+   stroke: #c874ff !important;
+}
+
+.arrowheadPath {
+    fill: #c874ff !important;
+}
+//end custom mermaid

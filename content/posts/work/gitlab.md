@@ -44,3 +44,40 @@ draft: false
     - GitLab Pages
     - 从 SVN 迁移
     - Git 的基本使用
+
+### 账号体系
+
+<div style="margin-bottom: 45px" class="mermaid">
+graph LR;
+    gitlab(Gitlab) --> group(User Group)
+    up((Account.Core)) --> account(username)
+    up --> avatar
+    up --> nickName
+    up --> pub[public email]
+    up --> com[commit email]
+    up --> password
+    group  --> root[Root] --> up
+    group --> admin[Administrator] --> up
+    group --> user[User] --> up
+</div>
+
+> Root > Administrator > User  
+> 具体请查看权限部分
+
+#### Example. 实例化的账号体系
+
+<div style="margin-bottom: 45px" class="mermaid">
+graph LR;
+    gitlab(Gitlab) --> group(合成项目组)
+    group --> admin[User - Maintainer - 组长]
+    group --> backend[User - 后端]
+    group --> js[User - 前端]
+    group --> test[User - 测试]
+    group --> ui[User - UI]
+</div>
+
+### 项目管理
+
+#### Issue
+
+#### 里程碑
