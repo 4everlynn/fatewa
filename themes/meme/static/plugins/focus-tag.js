@@ -16,7 +16,7 @@ class FocusTag extends HTMLElement {
                          font-weight: 200;
                          font-size: 12px">
                  ${this.innerHTML}
-            </>
+            </div>
         `
     }
 }
