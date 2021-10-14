@@ -18,10 +18,10 @@ draft: false
 - [项目管理](#项目管理)
     - [Issues](#Issues)
     - [里程碑](#里程碑)
-- 通知与消息
-    - 邮件通知
-    - 站内通知
-- 权限体系
+- [通知与消息](#通知与消息)
+    - [邮件通知](#邮件通知)
+    - [站内通知](#站内通知)
+- [权限体系](#权限体系)
     - 仓库隔离
     - 用户权限类型
         - Guest
@@ -170,3 +170,40 @@ GitLab 中的里程碑是一种跟踪问题和合并请求的方法，
 
 ##### 组级别里程碑
 ![project](/fatewa/posts/work/images/milestones_new_group_milestone.png)
+
+#### 通知与消息
+
+在 Gitlab 中大致可以分为两种通知方式
+- 邮件通知
+- 站内通知
+
+##### 邮件通知
+
+平台中可以配置邮箱发件账户，并可通过此账户发送邮件给所有的用户, 此处列举几处由系统触发的邮件通知主题  
+- 代码发生合并
+- Issue 被评论
+- 被指派到某个 Issue 
+- 相关的 Issue 发生操作(标签变更、状态变更等)
+- CI 运行失败
+- 在 Issue 中被提到
+
+##### 站内通知
+
+站内通知在 <focus-tag link> (/dashboard/todos) </focus-tag> 中可以看到, 囊括了所有邮件通知的内容,
+同时，在 Service Worker 启用的情况下，Gitlab 会通过浏览器发出 Native 通知。
+
+#### 权限体系
+Gitlab 的权限是建立在组与仓库之上的 关系为 组 > 仓库
+如果用户在一个组内被授权, 则在该组下所有的仓库都可以进行访问, 关系图如下所示(由高到低)
+
+<div class="mermaid">
+graph LR;
+power --> Owner
+power(权限模型) --> Maintainer
+power --> Developer
+power --> Reporter
+group(组) -.-> sub_group(子组) --> repo(仓库)
+group -.-> power
+sub_group --> power
+repo --> power
+</div>
