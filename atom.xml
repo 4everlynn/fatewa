@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">&lt;Fatewa /&gt;</title>
     <subtitle type="html">Fatewa is a software team that has been active in the field of software development for many years.</subtitle>
-    <updated>2021-10-14T14:07:28&#43;08:00</updated>
+    <updated>2021-10-14T14:28:06&#43;08:00</updated>
     <id>https://4everlynn.github.io/fatewa/</id>
     <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/" />
     <link rel="self" type="application/atom&#43;xml" href="https://4everlynn.github.io/fatewa/atom.xml" />
@@ -18,9 +18,9 @@
     <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
         <entry>
             <title type="text">Spring Cli Document</title>
-            <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/" />
-            <id>https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/</id>
-            <updated>2021-10-14T14:07:25&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/spring-cli/" />
+            <id>https://4everlynn.github.io/fatewa/posts/work/spring-cli/</id>
+            <updated>2021-10-14T14:28:03&#43;08:00</updated>
             <published>2021-10-14T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -35,64 +35,64 @@
      &lt;span style=&#34;color: gray;font-size: 13px&#34;&gt;Now at version 1.0.0&lt;/span&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#quick-start&#34;&gt;Quick Start&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#features&#34;&gt;Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#quick-start&#34;&gt;Quick Start&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#brahma-cli&#34;&gt;Brahma Cli&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#brahma-cli&#34;&gt;Brahma Cli&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E9%80%89%E6%8B%A9%E6%A8%A1%E7%89%88&#34;&gt;选择模版&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E9%80%89%E6%8B%A9%E6%A8%A1%E7%89%88%E7%89%88%E6%9C%AC&#34;&gt;选择模版版本&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E8%BE%93%E5%85%A5%E9%A1%B9%E7%9B%AE%E6%8F%8F%E8%BF%B0&#34;&gt;输入项目描述&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E7%89%B9%E6%80%A7%E9%80%89%E6%8B%A9features&#34;&gt;特性选择(Features)&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E9%80%89%E6%8B%A9%E6%A8%A1%E7%89%88&#34;&gt;选择模版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E9%80%89%E6%8B%A9%E6%A8%A1%E7%89%88%E7%89%88%E6%9C%AC&#34;&gt;选择模版版本&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E8%BE%93%E5%85%A5%E9%A1%B9%E7%9B%AE%E6%8F%8F%E8%BF%B0&#34;&gt;输入项目描述&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E7%89%B9%E6%80%A7%E9%80%89%E6%8B%A9features&#34;&gt;特性选择(Features)&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E7%89%B9%E6%80%A7%E4%B8%80%E8%A7%88%E8%A1%A8&#34;&gt;特性一览表&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E7%89%B9%E6%80%A7%E4%B8%80%E8%A7%88%E8%A1%A8&#34;&gt;特性一览表&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E9%80%89%E6%8B%A9%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B1%BB%E5%9E%8B&#34;&gt;选择数据库类型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E9%80%89%E6%8B%A9%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B1%BB%E5%9E%8B&#34;&gt;选择数据库类型&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#project&#34;&gt;Project&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#project&#34;&gt;Project&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#kernel-%E6%98%AF%E4%BB%80%E4%B9%88&#34;&gt;Kernel 是什么 ?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#migration&#34;&gt;Migration&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#kernel-%E6%98%AF%E4%BB%80%E4%B9%88&#34;&gt;Kernel 是什么 ?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#migration&#34;&gt;Migration&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E7%8A%B6%E6%80%81&#34;&gt;状态&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E5%88%9B%E5%BB%BA&#34;&gt;创建&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E5%8D%87%E7%BA%A7&#34;&gt;升级&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E5%9B%9E%E9%80%80&#34;&gt;回退&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E7%8A%B6%E6%80%81&#34;&gt;状态&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E5%88%9B%E5%BB%BA&#34;&gt;创建&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E5%8D%87%E7%BA%A7&#34;&gt;升级&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E5%9B%9E%E9%80%80&#34;&gt;回退&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#mybatisx-%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90&#34;&gt;MybatisX 代码生成&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#controller&#34;&gt;Controller&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#mybatisx-%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90&#34;&gt;MybatisX 代码生成&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#controller&#34;&gt;Controller&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#response-%E5%86%99%E6%B3%95&#34;&gt;Response 写法&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#response-%E5%86%99%E6%B3%95&#34;&gt;Response 写法&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E9%BB%98%E8%AE%A4%E7%AD%96%E7%95%A5&#34;&gt;默认策略&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E5%AD%90%E9%94%AE%E7%AD%96%E7%95%A5&#34;&gt;子键策略&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E5%B9%B3%E9%93%BA%E7%AD%96%E7%95%A5&#34;&gt;平铺策略&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E5%8E%9F%E5%A7%8B%E7%B1%BB%E5%9E%8B&#34;&gt;原始类型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E9%BB%98%E8%AE%A4%E7%AD%96%E7%95%A5&#34;&gt;默认策略&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E5%AD%90%E9%94%AE%E7%AD%96%E7%95%A5&#34;&gt;子键策略&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E5%B9%B3%E9%93%BA%E7%AD%96%E7%95%A5&#34;&gt;平铺策略&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E5%8E%9F%E5%A7%8B%E7%B1%BB%E5%9E%8B&#34;&gt;原始类型&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E5%8F%82%E6%95%B0%E5%90%88%E6%B3%95%E6%80%A7%E6%A0%A1%E9%AA%8C&#34;&gt;参数合法性校验&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E5%8F%82%E6%95%B0%E5%90%88%E6%B3%95%E6%80%A7%E6%A0%A1%E9%AA%8C&#34;&gt;参数合法性校验&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E6%96%AD%E8%A8%80&#34;&gt;断言&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E6%8E%A5%E5%8F%A3%E5%AF%BC%E5%87%BA%E4%B8%8E%E5%BC%80%E6%94%BE%E5%AD%97%E6%AE%B5%E6%A3%80%E7%B4%A2&#34;&gt;接口导出与开放字段检索&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E6%96%AD%E8%A8%80&#34;&gt;断言&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E6%8E%A5%E5%8F%A3%E5%AF%BC%E5%87%BA%E4%B8%8E%E5%BC%80%E6%94%BE%E5%AD%97%E6%AE%B5%E6%A3%80%E7%B4%A2&#34;&gt;接口导出与开放字段检索&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E6%8E%A5%E5%8F%A3%E5%AF%BC%E5%87%BA&#34;&gt;接口导出&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E5%BC%80%E6%94%BE%E5%AD%97%E6%AE%B5%E6%A3%80%E7%B4%A2&#34;&gt;开放字段检索&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E6%8E%A5%E5%8F%A3%E5%AF%BC%E5%87%BA&#34;&gt;接口导出&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E5%BC%80%E6%94%BE%E5%AD%97%E6%AE%B5%E6%A3%80%E7%B4%A2&#34;&gt;开放字段检索&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#faq&#34;&gt;FAQ&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#faq&#34;&gt;FAQ&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E5%A6%82%E4%BD%95%E4%BD%BF%E4%B8%BB%E9%94%AE%E5%9C%A8%E8%AF%B7%E6%B1%82%E7%BB%93%E6%9E%9C%E4%B8%AD%E8%BF%9B%E8%A1%8C%E5%B1%95%E7%A4%BA&#34;&gt;如何使主键在请求结果中进行展示&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E7%94%9F%E6%88%90%E7%9A%84-api-%E6%A0%BC%E5%BC%8F%E4%B8%8E%E8%AF%B7%E6%B1%82%E8%A7%84%E8%8C%83&#34;&gt;生成的 API 格式与请求规范？&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#%E5%A6%82%E4%BD%95%E8%A6%86%E7%9B%96%E7%94%9F%E6%88%90%E7%9A%84-api-%E8%B7%AF%E5%BE%84&#34;&gt;如何覆盖生成的 API 路径&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E5%A6%82%E4%BD%95%E4%BD%BF%E4%B8%BB%E9%94%AE%E5%9C%A8%E8%AF%B7%E6%B1%82%E7%BB%93%E6%9E%9C%E4%B8%AD%E8%BF%9B%E8%A1%8C%E5%B1%95%E7%A4%BA&#34;&gt;如何使主键在请求结果中进行展示&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E7%94%9F%E6%88%90%E7%9A%84-api-%E6%A0%BC%E5%BC%8F%E4%B8%8E%E8%AF%B7%E6%B1%82%E8%A7%84%E8%8C%83&#34;&gt;生成的 API 格式与请求规范？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#%E5%A6%82%E4%BD%95%E8%A6%86%E7%9B%96%E7%94%9F%E6%88%90%E7%9A%84-api-%E8%B7%AF%E5%BE%84&#34;&gt;如何覆盖生成的 API 路径&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/inedx/#maintainer&#34;&gt;Maintainer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/spring-cli/#maintainer&#34;&gt;Maintainer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -915,7 +915,7 @@ src=&#34;https://git.wuchuangroup.com/uploads/-/system/user/avatar/3/avatar.png?
             <title type="text">Gitlab下的工作方式</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/gitlab/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/gitlab/</id>
-            <updated>2021-10-14T14:07:25&#43;08:00</updated>
+            <updated>2021-10-14T14:28:03&#43;08:00</updated>
             <published>2021-07-21T16:42:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -1260,7 +1260,7 @@ repo --&gt; power
             <title type="text">BIM 技术现状与展望</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/tech/bim-summary/" />
             <id>https://4everlynn.github.io/fatewa/posts/tech/bim-summary/</id>
-            <updated>2021-10-14T14:07:25&#43;08:00</updated>
+            <updated>2021-10-14T14:28:03&#43;08:00</updated>
             <published>2021-03-24T12:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -1311,7 +1311,7 @@ repo --&gt; power
             <title type="text">Chapter 1 three.js 与 vue</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/" />
             <id>https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/</id>
-            <updated>2021-10-14T14:07:25&#43;08:00</updated>
+            <updated>2021-10-14T14:28:03&#43;08:00</updated>
             <published>2021-03-24T12:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -1624,7 +1624,7 @@ Version &amp;amp; Tech  Vue ^2.6.11 three ^0.128.0 Typescript ~4.1.5 rxjs ^6.6.7
             <title type="text">docker-compose 部署 wordpress</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/wordpress/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/wordpress/</id>
-            <updated>2021-10-14T14:07:25&#43;08:00</updated>
+            <updated>2021-10-14T14:28:03&#43;08:00</updated>
             <published>2021-01-25T14:27:03&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -1989,7 +1989,7 @@ create database &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;my_website&lt;span 
             <title type="text">传统部署向左，docker向右</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/docker/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/docker/</id>
-            <updated>2021-10-14T14:07:25&#43;08:00</updated>
+            <updated>2021-10-14T14:28:03&#43;08:00</updated>
             <published>2021-01-22T14:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
