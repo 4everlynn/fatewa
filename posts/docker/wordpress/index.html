@@ -60,7 +60,7 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2021-01-25T14:27:03+08:00",
-        "dateModified": "2021-07-23T15:55:19+08:00",
+        "dateModified": "2021-10-14T14:07:25+08:00",
         "url": "https://4everlynn.github.io/fatewa/posts/docker/wordpress/",
         "headline": "docker-compose 部署 wordpress",
         "description": "网站 对于每个人都不陌生，我们每天都在与各种不同的网站进行互动，随着信息化不断发展，很多公司与个人都拥有了自己的网站，很多时候做网站的念头都止步于技术限制，那么今天，我就介绍一个让大家可以很快搭建起自己网站的方法，如果这正是您所需的就继续看下去吧！\n WordPress 正如你所见,今天要介绍的就是大名鼎鼎的 WordPress，使用 WordPress ，您仅需要一点点常用的计算机知识即可，如果您对它还不认识，那么以下是 维基百科 对于 WordPress 的一段描述:\n WordPress是一个以PHP和MySQL为平台的自由开源的博客软件和内容管理系统。WordPress具有插件架构和模板系统。 截至2018年4月，排名前1000万的网站中超过30.6%使用WordPress。 WordPress是最受欢迎的网站内容管理系统。 全球有大约30%的网站(7亿5000个)都是使用WordPress架设网站的。 WordPress是目前因特网上最流行的博客系统。 WordPress在最著名的网络发布阶段中脱颖而出。 如今，它被使用在超过7000万个站点上。\n 或许你对于其中的一些专业术语并不了解，没关系！只要知道这是一个很可靠的系统即可。\n如果你想了解更多关于 WordPress 的知识，可以访问 Wordpress 中文官网\n怎么做 ？ 虽然 Wordpress 多以安装简便著称，但作为没有任何相关知识的群体，想要成功安装仍然具有一定难度，按照传统的方式进行安装，搭建PHP的运行环境就是基础，这一步可能就会劝退很大一部分人，那么今天我要介绍的就是使用 Docker 进行安装的方式，通过这种方式，只需要有一台 Linux 的主机即可(需要支持Docker运行)\n关于 Docker 在这篇文章中，不对 Docker 进行过多的介绍，后续的篇章中我会逐步地介绍这个服务容器化时代超级🔥的开源工具，那么至少在这篇文章中，只需要能够安装并简单使用即可",
@@ -117,7 +117,7 @@
 <meta property="og:locale" content="en" /><meta property="og:image" content="https://4everlynn.github.io/icons/logo.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2021-01-25T14:27:03&#43;08:00" />
-    <meta property="article:modified_time" content="2021-07-23T15:55:19&#43;08:00" />
+    <meta property="article:modified_time" content="2021-10-14T14:07:25&#43;08:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -220,7 +220,7 @@
     
     
         
-        <time datetime="2021-07-23T15:55:19&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2021.7.23</time>
+        <time datetime="2021-10-14T14:07:25&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2021.10.14</time>
     
     
     
@@ -584,9 +584,9 @@ create database <span class="sb">`</span>my_website<span class="sb">`</span><spa
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2021-07-23 15:55:19 CST" style="cursor:help">
+        <span title="Updated @ 2021-10-14 14:07:25 CST" style="cursor:help">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2021-07-23</text><text x="915" y="140" textLength="650" transform="scale(.1)">2021-07-23</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2021-10-14</text><text x="915" y="140" textLength="650" transform="scale(.1)">2021-10-14</text></g></svg>
         </span></div>
 
 
