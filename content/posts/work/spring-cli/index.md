@@ -9,7 +9,7 @@ draft: false
 <div style="text-align: center;display: flex;flex-direction: column;justify-content:center;align-items:center;margin-bottom: 100px">
      <h1 style="font-weight: 300;text-shadow: 0 0 1px black;">Fatewa <span style="color: #6730fa">Spring Cli</span></h1>
      <h3 style="font-weight: 400;font-size: 18px;">Easy to build <b>Stronger</b><span style="margin-left: 8px;border: 1px solid black;padding: 2px 10px;background: #6730fa;color: white;font-weight: 300;border-radius: 2px">restful API</span></h3>
-     <span style="color: gray;font-size: 13px">Now at version 1.0.0</span>
+     <span style="color: gray;font-size: 13px">Now at version 1.0.5</span>
 </div>
 
 
