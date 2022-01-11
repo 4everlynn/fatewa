@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">&lt;Fatewa /&gt;</title>
     <subtitle type="html">Fatewa is a software team that has been active in the field of software development for many years.</subtitle>
-    <updated>2021-12-23T13:38:04&#43;08:00</updated>
+    <updated>2022-01-11T17:32:55&#43;08:00</updated>
     <id>https://4everlynn.github.io/fatewa/</id>
     <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/" />
     <link rel="self" type="application/atom&#43;xml" href="https://4everlynn.github.io/fatewa/atom.xml" />
@@ -17,10 +17,72 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
         <entry>
+            <title type="text">Spring Cli 1.0.8 RELEASE Features</title>
+            <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.8/" />
+            <id>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.8/</id>
+            <updated>2022-01-11T17:32:52&#43;08:00</updated>
+            <published>2022-01-11T17:30:10&#43;08:00</published>
+            <author>
+                    <name>4everlynn</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>fatewa.fit@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Fatewa Spring Cli Release log Easy to build Strongerrestful API Now at version 1.0.8    Features  Service Component  Service Component 随着我们的服务数量增加，寻找服务的配置文档也成为了一项复杂的工作， 考虑到这点，在这个版本中，引入了服务组件的初始化
+如上图所示，根据提示进行参数输入即可</summary>
+            
+                <content type="html">&lt;div style=&#34;text-align: center;display: flex;flex-direction: column;justify-content:center;align-items:center;margin-bottom: 100px&#34;&gt;
+     &lt;h1 style=&#34;font-weight: 300;text-shadow: 0 0 1px black;&#34;&gt;Fatewa &lt;span style=&#34;color: #faca30&#34;&gt;Spring Cli Release log&lt;/span&gt;&lt;/h1&gt;
+     &lt;h3 style=&#34;font-weight: 400;font-size: 18px;&#34;&gt;Easy to build &lt;b&gt;Stronger&lt;/b&gt;&lt;span style=&#34;margin-left: 8px;border: 1px solid black;padding: 2px 10px;background: #00b583;color: white;font-weight: 300;border-radius: 6px&#34;&gt;restful API&lt;/span&gt;&lt;/h3&gt;
+     &lt;span style=&#34;color: gray;font-size: 13px&#34;&gt;
+&lt;focus-tag link&gt;
+Now at version 1.0.8
+&lt;/focus-tag&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.8/#Service-Component&#34;&gt;Service Component&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;service-component&#34;&gt;Service Component&lt;/h4&gt;
+&lt;p&gt;随着我们的服务数量增加，寻找服务的配置文档也成为了一项复杂的工作，
+考虑到这点，在这个版本中，引入了服务组件的初始化&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://4everlynn.github.io/fatewa/fatewa/posts/work/images/service-comp.jpg&#34; alt=&#34;img.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如上图所示，根据提示进行参数输入即可&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://4everlynn.github.io/fatewa/categories/java/" term="java" label="java" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://4everlynn.github.io/fatewa/tags/spring-cli/" term="Spring cli" label="Spring cli" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">KFD 1.0.7</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/kfd/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/kfd/</id>
-            <updated>2021-12-23T13:38:02&#43;08:00</updated>
+            <updated>2022-01-11T17:32:52&#43;08:00</updated>
             <published>2021-12-23T11:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -250,7 +312,7 @@ footer: 备注&lt;/p&gt;
             <title type="text">Kinnara 1.0.5 Stable is Release</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/kinnara/1.0.5/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/kinnara/1.0.5/</id>
-            <updated>2021-12-23T13:38:02&#43;08:00</updated>
+            <updated>2022-01-11T17:32:52&#43;08:00</updated>
             <published>2021-12-20T15:17:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -1065,7 +1127,7 @@ project
             <title type="text">Spring Cli 1.0.5 RELEASE Features</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.5/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.5/</id>
-            <updated>2021-12-23T13:38:02&#43;08:00</updated>
+            <updated>2022-01-11T17:32:52&#43;08:00</updated>
             <published>2021-11-22T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -1463,7 +1525,7 @@ graph TB;
             <title type="text">Spring Cli Document</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/spring-cli/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/spring-cli/</id>
-            <updated>2021-12-23T13:38:02&#43;08:00</updated>
+            <updated>2022-01-11T17:32:52&#43;08:00</updated>
             <published>2021-10-14T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -2358,7 +2420,7 @@ src=&#34;https://git.wuchuangroup.com/uploads/-/system/user/avatar/3/avatar.png?
             <title type="text">Gitlab下的工作方式</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/gitlab/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/gitlab/</id>
-            <updated>2021-12-23T13:38:02&#43;08:00</updated>
+            <updated>2022-01-11T17:32:52&#43;08:00</updated>
             <published>2021-07-21T16:42:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -2703,7 +2765,7 @@ repo --&gt; power
             <title type="text">BIM 技术现状与展望</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/tech/bim-summary/" />
             <id>https://4everlynn.github.io/fatewa/posts/tech/bim-summary/</id>
-            <updated>2021-12-23T13:38:02&#43;08:00</updated>
+            <updated>2022-01-11T17:32:52&#43;08:00</updated>
             <published>2021-03-24T12:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -2754,7 +2816,7 @@ repo --&gt; power
             <title type="text">Chapter 1 three.js 与 vue</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/" />
             <id>https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/</id>
-            <updated>2021-12-23T13:38:02&#43;08:00</updated>
+            <updated>2022-01-11T17:32:52&#43;08:00</updated>
             <published>2021-03-24T12:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -3067,7 +3129,7 @@ Version &amp;amp; Tech  Vue ^2.6.11 three ^0.128.0 Typescript ~4.1.5 rxjs ^6.6.7
             <title type="text">docker-compose 部署 wordpress</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/wordpress/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/wordpress/</id>
-            <updated>2021-12-23T13:38:02&#43;08:00</updated>
+            <updated>2022-01-11T17:32:52&#43;08:00</updated>
             <published>2021-01-25T14:27:03&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -3432,7 +3494,7 @@ create database &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;my_website&lt;span 
             <title type="text">传统部署向左，docker向右</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/docker/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/docker/</id>
-            <updated>2021-12-23T13:38:02&#43;08:00</updated>
+            <updated>2022-01-11T17:32:52&#43;08:00</updated>
             <published>2021-01-22T14:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>

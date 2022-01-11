@@ -23,10 +23,68 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Thu, 23 Dec 2021 13:38:04 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 11 Jan 2022 17:32:55 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://4everlynn.github.io/fatewa/rss.xml" />
         
+        
+            <item>
+                <title>Spring Cli 1.0.8 RELEASE Features</title>
+                <link>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.8/</link>
+                <guid isPermaLink="true">https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.8/</guid>
+                <pubDate>Tue, 11 Jan 2022 17:30:10 &#43;0800</pubDate>
+                
+                    <author>fatewa.fit@gmail.com (4everlynn)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;div style=&#34;text-align: center;display: flex;flex-direction: column;justify-content:center;align-items:center;margin-bottom: 100px&#34;&gt;
+     &lt;h1 style=&#34;font-weight: 300;text-shadow: 0 0 1px black;&#34;&gt;Fatewa &lt;span style=&#34;color: #faca30&#34;&gt;Spring Cli Release log&lt;/span&gt;&lt;/h1&gt;
+     &lt;h3 style=&#34;font-weight: 400;font-size: 18px;&#34;&gt;Easy to build &lt;b&gt;Stronger&lt;/b&gt;&lt;span style=&#34;margin-left: 8px;border: 1px solid black;padding: 2px 10px;background: #00b583;color: white;font-weight: 300;border-radius: 6px&#34;&gt;restful API&lt;/span&gt;&lt;/h3&gt;
+     &lt;span style=&#34;color: gray;font-size: 13px&#34;&gt;
+&lt;focus-tag link&gt;
+Now at version 1.0.8
+&lt;/focus-tag&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.8/#Service-Component&#34;&gt;Service Component&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;service-component&#34;&gt;Service Component&lt;/h4&gt;
+&lt;p&gt;随着我们的服务数量增加，寻找服务的配置文档也成为了一项复杂的工作，
+考虑到这点，在这个版本中，引入了服务组件的初始化&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://4everlynn.github.io/fatewa/fatewa/posts/work/images/service-comp.jpg&#34; alt=&#34;img.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如上图所示，根据提示进行参数输入即可&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://4everlynn.github.io/fatewa/categories/java/">java</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://4everlynn.github.io/fatewa/tags/spring-cli/">Spring cli</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>KFD 1.0.7</title>
