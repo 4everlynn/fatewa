@@ -55,7 +55,7 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2021-12-23T11:00:10+08:00",
-        "dateModified": "2022-03-29T14:51:32+08:00",
+        "dateModified": "2022-08-22T11:55:20+08:00",
         "url": "https://4everlynn.github.io/fatewa/posts/work/kfd/",
         "headline": "KFD 1.0.7",
         "description": "Kernel feature draft 1.0.7 设计目标  减少 PO 的功能负担 使返回层更加灵活性 Git commit 规约  ProtocolVO 针对此前 kernel 设计的 domain driven 中存在 PO 功能负担过重的问题，为 PO 合理划分职责并提供向下兼容的语法。\n流程设计 graph LR; ctl(Controller) po(PO) vo(ProtocolVO) st(Strategy) resp(Protocol Response) ctl--po-.optional.-vo--st--resp po--st  接口 1 2 3 4 5 6 7 8 9 10 11  public interface ProtocolVO\u003cT extends AncestorDomain\u003e { /** * 输入一个PO类型返回一个输出的协议类型 * * @param domain 领域模型 * @return 输出的协议类型（VO） */ ProtocolVO\u003cT\u003e translate(T domain); }   代码示例 PO 1 2 3 4 5  @Data public class User extends AncestorDomain{ private String name; private int age; }   Controller 1 2 3 4 5 6 7 8 9 10 11  @RestController @RequestMapping(\"/v1/users\") public class UserController { public User user () { return new User() .",
@@ -107,7 +107,7 @@
 <meta property="og:locale" content="en" /><meta property="og:image" content="https://4everlynn.github.io/icons/logo.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2021-12-23T11:00:10&#43;08:00" />
-    <meta property="article:modified_time" content="2022-03-29T14:51:32&#43;08:00" />
+    <meta property="article:modified_time" content="2022-08-22T11:55:20&#43;08:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -210,7 +210,7 @@
     
     
         
-        <time datetime="2022-03-29T14:51:32&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2022.3.29</time>
+        <time datetime="2022-08-22T11:55:20&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2022.8.22</time>
     
     
     
@@ -450,9 +450,9 @@ footer: 备注</p>
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2022-03-29 14:51:32 CST" style="cursor:help">
+        <span title="Updated @ 2022-08-22 11:55:20 CST" style="cursor:help">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2022-03-29</text><text x="915" y="140" textLength="650" transform="scale(.1)">2022-03-29</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2022-08-22</text><text x="915" y="140" textLength="650" transform="scale(.1)">2022-08-22</text></g></svg>
         </span></div>
 
 
@@ -555,6 +555,10 @@ footer: 备注</p>
                 
                     <li class="related-item">
                         <a href="/fatewa/posts/work/spring-cli/" class="related-link">Spring Cli Document</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/fatewa/posts/work/tags/spring-cli/1.0.12/" class="related-link">Spring Cli 1.0.12 RELEASE Features</a>
                     </li>
                 
                     <li class="related-item">
