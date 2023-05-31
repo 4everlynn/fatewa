@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">&lt;Fatewa /&gt;</title>
     <subtitle type="html">Fatewa is a software team that has been active in the field of software development for many years.</subtitle>
-    <updated>2022-11-17T17:01:05&#43;08:00</updated>
+    <updated>2023-05-31T12:26:53&#43;08:00</updated>
     <id>https://4everlynn.github.io/fatewa/</id>
     <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/" />
     <link rel="self" type="application/atom&#43;xml" href="https://4everlynn.github.io/fatewa/atom.xml" />
@@ -17,10 +17,452 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
         <entry>
+            <title type="text">Rayquaza 1.1.0 RELEASE</title>
+            <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/rayquaza/1.1.0/" />
+            <id>https://4everlynn.github.io/fatewa/posts/work/tags/rayquaza/1.1.0/</id>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
+            <published>2023-05-30T13:00:10&#43;08:00</published>
+            <author>
+                    <name>4everlynn</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>fatewa.fit@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">One To Many API Available WIP 进行中任务  RESTful Query ( 即单表中已经支持的查询eq、like、lt、gt&amp;hellip;) Excel 导出 (即单表中已经支持的 @Intermediary 注解) Projector (查询结果自定义映射)  @Export 接口所能覆盖的场景仅局限于单表，导致项目中实际使用的频率较低，本次迭代后，新增了 一对多 接口的生成。
+ 该功能需结合 @Export 进行使用， 是在 export 的基础上进行进一步一对多接口生成
+ Start One To Many API 基础 @Export 书写方式
+1 2  @Export(path = &amp;#34;roles&amp;#34;, create = true, update = true) public interface RoleService extends IService&amp;lt;Role&amp;gt; {}   增加关联接口后</summary>
+            
+                <content type="html">&lt;h3 id=&#34;one-to-many-api-available&#34;&gt;One To Many API Available&lt;/h3&gt;
+&lt;h6 id=&#34;wip-进行中任务&#34;&gt;WIP 进行中任务&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;RESTful Query (
+即单表中已经支持的查询eq、like、lt、gt&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Excel 导出 (即单表中已经支持的 @Intermediary
+注解)&lt;/li&gt;
+&lt;li&gt;Projector (查询结果自定义映射)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;focus-tag&gt;@Export&lt;/focus-tag&gt;
+接口所能覆盖的场景仅局限于单表，导致项目中实际使用的频率较低，本次迭代后，新增了 &lt;code&gt;一对多&lt;/code&gt;
+接口的生成。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;该功能需结合 @Export 进行使用， 是在 export
+的基础上进行进一步一对多接口生成&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;start-one-to-many-api&#34;&gt;Start One To Many API&lt;/h4&gt;
+&lt;p&gt;基础 &lt;focus-tag&gt;@Export&lt;/focus-tag&gt; 书写方式&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;nd&#34;&gt;@Export&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;roles&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;create&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;update&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;RoleService&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;IService&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Role&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;增加关联接口后&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;nd&#34;&gt;@Export&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;roles&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;create&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;update&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;@Relation&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Permission&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;single&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;create&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;connector&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nd&#34;&gt;@RelationConnector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;RelationRolePermission&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;RoleService&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;IService&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Role&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;增加 &lt;focus-tag&gt;@Relation&lt;/focus-tag&gt;
+注解即可生成对应一对多接口&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://4everlynn.github.io/fatewa/fatewa/posts/work/tags/rayquaza/assets/log.png&#34; alt=&#34;log&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;基础的单表接口在导出的日志中展示为
+&lt;span style=&#34;color: #12fd00&#34;&gt;绿色&lt;/span&gt;
+一对多接口的接口在导出的日志中展示为
+&lt;span style=&#34;color: #ff00dd&#34;&gt;紫色&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;路径拼接规则&#34;&gt;路径拼接规则&lt;/h5&gt;
+&lt;p&gt;以 &lt;code&gt;角色&lt;/code&gt;
+为例，我们在案例中的角色导出路径为 &lt;code&gt;/roles&lt;/code&gt;,
+关联的一对多类型为 &lt;code&gt;Permission&lt;/code&gt;, 拼接 &lt;code&gt;Permission&lt;/code&gt;
+部分的路径规则如下&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Permission 有使用 @Export 导出接口时&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 &lt;code&gt;PermissionService&lt;/code&gt; 上的 @Export
+接口的 &lt;code&gt;path&lt;/code&gt; 参数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Permission 未使用 @Export 导出接口时&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 &lt;code&gt;Permission&lt;/code&gt; 类名称(小写)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&#34;实例&#34;&gt;实例&lt;/h6&gt;
+&lt;p&gt;&lt;focus-tag link&gt;分页接口 GET&lt;/focus-tag&gt;
+/roles/&lt;code&gt;{roleId}&lt;/code&gt;/permissions&lt;br&gt;
+&lt;focus-tag link&gt;单个查询接口 GET&lt;/focus-tag&gt;
+/roles/&lt;code&gt;{roleId}&lt;/code&gt;/permissions/&lt;code&gt;{permissionId}&lt;/code&gt;
+&lt;focus-tag link&gt;创建接口 POST&lt;/focus-tag&gt;
+/roles/&lt;code&gt;{roleId}&lt;/code&gt;/permissions&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 request body 中直接使用 Permission 类
+的字段即可，会自动进行关联表与实体表数据入库&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;focus-tag link&gt;删除接口 DELETE&lt;/focus-tag&gt;
+/roles/&lt;code&gt;{roleId}&lt;/code&gt;/permissions/&lt;code&gt;{permissionId}&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;仅移除目标类型与当前类型的关联关系，不会直接删除目标数据&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;focus-tag link&gt;更新接口 PATCH&lt;/focus-tag&gt;
+/roles/&lt;code&gt;{roleId}&lt;/code&gt;/permissions&lt;/p&gt;
+&lt;h5 id=&#34;relation-参数详解&#34;&gt;Relation 参数详解&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;名称&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;value&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;目标的关联表实体类 Class&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;connector&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;连接器，一对多产生的中间关联表&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;single&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;开放单个查询接口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;create&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;开放创建接口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;update&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;开放更新接口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;page&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;开放分页接口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;delete&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;开放删除接口&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h5 id=&#34;relationconnector-参数详解&#34;&gt;RelationConnector 参数详解&lt;/h5&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;名称&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;value&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;中间关联表实体类 Class&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;connector&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;连接器，一对多产生的中间关联表&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;key&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;关联表中代表当前实体主键的字段名称&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;targetKey&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;目标实体 key&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;进阶使用&#34;&gt;进阶使用&lt;/h4&gt;
+&lt;h4 id=&#34;一对多模型&#34;&gt;一对多模型&lt;/h4&gt;
+&lt;div style=&#34;margin: 25px 0;&#34;&gt;1、有中间表&lt;/div&gt;
+&lt;div class=&#34;mermaid&#34;&gt;
+graph LR;
+角色表 --&gt; rpr(角色权限关联表) --&gt; 权限表
+&lt;/div&gt;
+&lt;div style=&#34;margin: 25px 0&#34;&gt;2、无中间表&lt;/div&gt;
+&lt;div class=&#34;mermaid&#34;&gt;
+graph LR;
+角色表 --&gt; 权限表
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;两种模型在使用上仅是在 &lt;focus-tag link&gt; 连接器 &lt;/focus-tag&gt; 部分参数上会有一些区别&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;第一种模型就是 &lt;code&gt;One To Many API Available&lt;/code&gt; 中定义的代码&lt;/p&gt;
+&lt;p&gt;这里着重介绍一下 &lt;code&gt;第二种模式&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;nd&#34;&gt;@Export&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;roles&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;create&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;update&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;@Relation&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Permission&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;single&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;create&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;connector&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nd&#34;&gt;@RelationConnector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Permission&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;RoleService&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;IService&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Role&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;在这种模式下，连接器与目标类型是同一个类型(
+通常是需要重新配置 &lt;code&gt;key&lt;/code&gt;, &lt;code&gt;targetKey&lt;/code&gt;)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;需要注意的是，在这种模式下，由于不存在中间表，删除接口会直接移除对应实体类&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;data-scope-refactor&#34;&gt;Data Scope (refactor)&lt;/h3&gt;
+&lt;p&gt;主体，实现了Subject&lt;String&gt;接口，该接口定义了一个名为scope()的方法，该方法返回一个泛型，在此处为 String，表示该主体的范围。在这种情况下，scope()方法返回code属性的值（在该系统中code代表主键）。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/**
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt; * 客户端信息表
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt; * @TableName client_details
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt; */&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;@TableName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;client_details&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;nd&#34;&gt;@Data&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;ClientDetails&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;implements&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Serializable&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Subject&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;cm&#34;&gt;/**
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 主键
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     */&lt;/span&gt;
+    &lt;span class=&#34;nd&#34;&gt;@TableId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;IdType&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;AUTO&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Long&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+
+    &lt;span class=&#34;cm&#34;&gt;/**
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 平台名称（中文）
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     */&lt;/span&gt;
+    &lt;span class=&#34;nd&#34;&gt;@TableField&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+
+    &lt;span class=&#34;cm&#34;&gt;/**
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 同appid
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     */&lt;/span&gt;
+    &lt;span class=&#34;nd&#34;&gt;@TableField&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;value&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;code&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+
+    &lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;scope&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;拦截器，该类提供了一种在SQL级别上实现数据隔离的方法。具体来说，它拦截了所有与ClientDetails相关的SQL查询，并将它们限制为当前用户所拥有的客户端。&lt;/p&gt;
+&lt;p&gt;以下是对该代码的详细解释：&lt;/p&gt;
+&lt;p&gt;@Component注解将该类标记为Spring组件，以便它可以被自动扫描和注入到其他组件中。&lt;/p&gt;
+&lt;p&gt;ClientScope类扩展了AbstractSubjectInterceptor类，并指定了两个泛型参数：String和ClientDetails。这些参数分别表示主体的类型和主体的详细信息。&lt;/p&gt;
+&lt;p&gt;subjects()方法返回当前用户拥有的ClientDetails列表。具体来说，需要实现获取当前用户持有的主体，获取ClientDetails对象，并将它们添加到一个列表中返回。&lt;/p&gt;
+&lt;p&gt;configure()方法用于配置作用域。在这个方法中，我们使用ScopeConfiguration对象来定义一个作用域，该作用域限制了Role类的查询结果，使其仅限于当前用户所属的客户端。具体来说，我们使用ActionScope类来定义作用域，并指定了Role类和client_code字段作为作用域的限制条件。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;57
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;nd&#34;&gt;@Component&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;ClientScope&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AbstractSubjectInterceptor&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ClientDetails&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+
+
+    &lt;span class=&#34;cm&#34;&gt;/**
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 该函数为特殊函数，数据拦截在这个方法域内不会生效，可调用任意函数
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 在 {@link AbstractSubjectInterceptor} 时需要特别小心，未在指定的方法域内进行 service、mapper
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 调用时，很容易造成循环拦截
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     *
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * @return 获取主体
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     */&lt;/span&gt;
+    &lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ClientDetails&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;subjects&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ArrayList&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&#34;cm&#34;&gt;/**
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 复写 sql 拼接，自定义实现 sql 拼接方式，
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 该函数为进阶使用，需要有一定的文本与SQL处理能力
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     *
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * @param session         作用域会话
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * @param subjects        当前持有的主体
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * @param mappedStatement 用于调整 SQL
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * @return SQL
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     */&lt;/span&gt;
+    &lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;getSql&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ActionScopeSession&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;session&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+                            &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;?&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;extends&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Subject&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;subjects&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;MappedStatement&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mappedStatement&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;super&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getSql&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;session&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;subjects&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mappedStatement&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&#34;cm&#34;&gt;/**
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 该函数也为白单位方法域，这个域内不会进行 sql 拦截，
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 可以使用任意 service、mapper
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 某些情况下需要跳过数据拦截
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     */&lt;/span&gt;
+    &lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;boolean&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;skip&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;// 管理员跳过数据拦截
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;isAmin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;super&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;skip&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+
+    &lt;span class=&#34;cm&#34;&gt;/**
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * 配置作用域
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     *
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     * @param configuration 配置
+&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;     */&lt;/span&gt;
+    &lt;span class=&#34;nd&#34;&gt;@Override&lt;/span&gt;
+    &lt;span class=&#34;kd&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;configure&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ScopeConfiguration&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;configuration&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;configuration&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;scope&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ActionScope&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;().&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;clazz&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Role&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;field&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;client_code&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;));&lt;/span&gt;
+    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://4everlynn.github.io/fatewa/categories/java/" term="java" label="java" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://4everlynn.github.io/fatewa/tags/spring-cli/" term="Spring cli" label="Spring cli" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://4everlynn.github.io/fatewa/tags/rayquaza/" term="Rayquaza" label="Rayquaza" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">Lugia Naive UI Renderer 0.2.2 Stable is Release</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/lugia/renderer/naive/0.2.2/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/lugia/renderer/naive/0.2.2/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2022-11-17T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -221,7 +663,7 @@ Now at version 0.2.2
             <title type="text">Spring Cli 1.0.12 RELEASE Features</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.12/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.12/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2022-08-22T10:32:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -421,7 +863,7 @@ Now at version 1.0.12
             <title type="text">Spring Cli 1.0.10 RELEASE Features</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.10/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.10/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2022-03-24T17:30:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -583,7 +1025,7 @@ graph TB;
             <title type="text">Spring Cli 1.0.8 RELEASE Features</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.8/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.8/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2022-01-11T17:30:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -645,7 +1087,7 @@ Now at version 1.0.8
             <title type="text">KFD 1.0.7</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/kfd/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/kfd/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2021-12-23T11:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -875,7 +1317,7 @@ footer: 备注&lt;/p&gt;
             <title type="text">Kinnara 1.0.5 Stable is Release</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/kinnara/1.0.5/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/kinnara/1.0.5/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2021-12-20T15:17:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -1690,7 +2132,7 @@ project
             <title type="text">Spring Cli 1.0.5 RELEASE Features</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.5/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.5/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2021-11-22T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -2088,7 +2530,7 @@ graph TB;
             <title type="text">Spring Cli Document</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/spring-cli/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/spring-cli/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2021-10-14T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -2983,7 +3425,7 @@ src=&#34;https://git.wuchuangroup.com/uploads/-/system/user/avatar/3/avatar.png?
             <title type="text">Gitlab下的工作方式</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/gitlab/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/gitlab/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2021-07-21T16:42:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -3328,7 +3770,7 @@ repo --&gt; power
             <title type="text">BIM 技术现状与展望</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/tech/bim-summary/" />
             <id>https://4everlynn.github.io/fatewa/posts/tech/bim-summary/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2021-03-24T12:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -3379,7 +3821,7 @@ repo --&gt; power
             <title type="text">Chapter 1 three.js 与 vue</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/" />
             <id>https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2021-03-24T12:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -3692,7 +4134,7 @@ Version &amp;amp; Tech  Vue ^2.6.11 three ^0.128.0 Typescript ~4.1.5 rxjs ^6.6.7
             <title type="text">docker-compose 部署 wordpress</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/wordpress/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/wordpress/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2021-01-25T14:27:03&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -4057,7 +4499,7 @@ create database &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;my_website&lt;span 
             <title type="text">传统部署向左，docker向右</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/docker/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/docker/</id>
-            <updated>2022-11-17T17:01:02&#43;08:00</updated>
+            <updated>2023-05-31T12:26:51&#43;08:00</updated>
             <published>2021-01-22T14:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
