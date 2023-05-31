@@ -19,7 +19,7 @@ using prominent colors to emphasize the importance of text
 ##### Live Example
 
 <div style="background: #5319f5;display: inline-block;padding: 3px 8px;border-radius: 3px;color: white;letter-spacing: 2px;border: 1px solid #642bff;margin: 8px 3px;font-weight: 200;font-size: 12px">
-    Focus on Me !
+    Focus on Me :)
 </div>
 
 <div style="background: #07163a;
