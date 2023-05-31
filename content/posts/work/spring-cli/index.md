@@ -66,11 +66,6 @@ draft: false
 
 Spring cli 需要通过 Brahma Cli 进行交互渲染，所以需要先进行安装
 
-```bash
-npm --registry https://nexus.wuchuangroup.com/repository/npm-group/ \
-install -g  @fatewa/brahma-cli
-```
-
 安装完成后，使用 `create` 指令进行项目创建
 
 ```bash
