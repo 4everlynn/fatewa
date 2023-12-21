@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">&lt;Fatewa /&gt;</title>
     <subtitle type="html">Fatewa is a software team that has been active in the field of software development for many years.</subtitle>
-    <updated>2023-09-11T14:40:16&#43;08:00</updated>
+    <updated>2023-12-21T10:49:21&#43;08:00</updated>
     <id>https://4everlynn.github.io/fatewa/</id>
     <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/" />
     <link rel="self" type="application/atom&#43;xml" href="https://4everlynn.github.io/fatewa/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Rayquaza 1.2.3 RELEASE</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/rayquaza/1.2.3/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/rayquaza/1.2.3/</id>
-            <updated>2023-09-11T14:40:14&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2023-09-11T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -141,7 +141,7 @@ PS: 最新的版本 Rayquaza 修复了之前 test 文件夹无法使用的问题
             <title type="text">Rayquaza 1.1.0 RELEASE</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/rayquaza/1.1.0/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/rayquaza/1.1.0/</id>
-            <updated>2023-09-11T14:40:14&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2023-05-30T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -583,7 +583,7 @@ graph LR;
             <title type="text">Lugia Naive UI Renderer 0.2.2 Stable is Release</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/lugia/renderer/naive/0.2.2/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/lugia/renderer/naive/0.2.2/</id>
-            <updated>2023-09-11T14:40:13&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2022-11-17T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -784,7 +784,7 @@ Now at version 0.2.2
             <title type="text">Spring Cli 1.0.12 RELEASE Features</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.12/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.12/</id>
-            <updated>2023-09-11T14:40:14&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2022-08-22T10:32:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -984,7 +984,7 @@ Now at version 1.0.12
             <title type="text">Spring Cli 1.0.10 RELEASE Features</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.10/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.10/</id>
-            <updated>2023-09-11T14:40:14&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2022-03-24T17:30:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -1146,7 +1146,7 @@ graph TB;
             <title type="text">Spring Cli 1.0.8 RELEASE Features</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.8/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.8/</id>
-            <updated>2023-09-11T14:40:14&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2022-01-11T17:30:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -1208,7 +1208,7 @@ Now at version 1.0.8
             <title type="text">KFD 1.0.7</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/kfd/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/kfd/</id>
-            <updated>2023-09-11T14:40:13&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2021-12-23T11:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -1438,7 +1438,7 @@ footer: 备注&lt;/p&gt;
             <title type="text">Kinnara 1.0.5 Stable is Release</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/kinnara/1.0.5/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/kinnara/1.0.5/</id>
-            <updated>2023-09-11T14:40:13&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2021-12-20T15:17:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -2253,7 +2253,7 @@ project
             <title type="text">Spring Cli 1.0.5 RELEASE Features</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.5/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/tags/spring-cli/1.0.5/</id>
-            <updated>2023-09-11T14:40:14&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2021-11-22T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -2651,7 +2651,7 @@ graph TB;
             <title type="text">Spring Cli Document</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/spring-cli/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/spring-cli/</id>
-            <updated>2023-09-11T14:40:13&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2021-10-14T13:00:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -3536,7 +3536,7 @@ src=&#34;https://git.wuchuangroup.com/uploads/-/system/user/avatar/3/avatar.png?
             <title type="text">Gitlab下的工作方式</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/work/gitlab/" />
             <id>https://4everlynn.github.io/fatewa/posts/work/gitlab/</id>
-            <updated>2023-09-11T14:40:13&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2021-07-21T16:42:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -3881,7 +3881,7 @@ repo --&gt; power
             <title type="text">BIM 技术现状与展望</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/tech/bim-summary/" />
             <id>https://4everlynn.github.io/fatewa/posts/tech/bim-summary/</id>
-            <updated>2023-09-11T14:40:13&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2021-03-24T12:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -3932,7 +3932,7 @@ repo --&gt; power
             <title type="text">Chapter 1 three.js 与 vue</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/" />
             <id>https://4everlynn.github.io/fatewa/posts/tech/threejs-chapter-1/</id>
-            <updated>2023-09-11T14:40:13&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2021-03-24T12:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -4245,7 +4245,7 @@ Version &amp;amp; Tech  Vue ^2.6.11 three ^0.128.0 Typescript ~4.1.5 rxjs ^6.6.7
             <title type="text">docker-compose 部署 wordpress</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/wordpress/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/wordpress/</id>
-            <updated>2023-09-11T14:40:13&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2021-01-25T14:27:03&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
@@ -4610,7 +4610,7 @@ create database &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;my_website&lt;span 
             <title type="text">传统部署向左，docker向右</title>
             <link rel="alternate" type="text/html" href="https://4everlynn.github.io/fatewa/posts/docker/docker/" />
             <id>https://4everlynn.github.io/fatewa/posts/docker/docker/</id>
-            <updated>2023-09-11T14:40:13&#43;08:00</updated>
+            <updated>2023-12-21T10:49:20&#43;08:00</updated>
             <published>2021-01-22T14:21:10&#43;08:00</published>
             <author>
                     <name>4everlynn</name>
